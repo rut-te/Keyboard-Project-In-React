@@ -1,0 +1,127 @@
+.keyboard {
+    display: grid;
+    grid-template-columns: repeat(15, auto);
+    grid-template-rows: repeat(8, auto);
+    gap: auto;
+}
+
+.styleKey {
+    grid-row: 7/8;
+    grid-column: auto;
+}
+
+.languageKey {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.languageKey0{
+    grid-column: span 1;
+    grid-row: span 1;
+    grid-row-start: 3;
+}
+
+.languageKey1{
+    grid-column: span 1;
+    grid-row: span 1;
+    grid-row-start: 4;
+}
+
+.languageKey2{
+    grid-column: span 1;
+    grid-row: span 1;
+    grid-row-start: 5;
+}
+
+.charachterKey {
+    grid-row: 2/3;
+    grid-column: auto;
+}
+
+.numberKey {
+    grid-row: 1/2;
+    grid-column: auto;
+}
+
+.tagKey {
+    grid-row: span 1;
+    grid-column: span 1;
+    grid-row-start: 6;
+}
+
+.BasicKey{
+    background-color: rgba(255, 255, 255, 0.419);
+    color:rgb(78, 70, 76)
+}
+
+input[type="color"]{
+    margin-top: 20%;
+    border:none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.419);
+}
+
+.number1{
+    grid-column-start: 4;
+}
+.number2{
+    grid-column-start: 5;
+}
+.number3{
+    grid-column-start: 6;
+}
+.number4{
+    grid-column-start: 7;
+}
+.number5{
+    grid-column-start: 8;
+}
+.number6{
+    grid-column-start: 9;
+}
+.number7{
+    grid-column-start: 10;
+}
+.number8{
+    grid-column-start: 11;
+}
+.number9{
+    grid-column-start: 12;
+}
+.number10{
+    grid-column-start: 13;
+}
+
+.space.number3 {
+    grid-column-start: 6;
+    grid-column-end: 10;
+    border: solid 3px rgba(200, 173, 172, 0.453);
+    box-shadow: 1px 1px 1px grey;
+}
+
+.number1.numberKey{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.number7.styleKey{
+    grid-column-start: 10;
+    grid-column-end: 12;
+}
+
+.number8.styleKey{
+    grid-column-start: 12;
+    grid-column-end: 13;
+}
+
+.B{
+    font-weight: 700;
+}
+
+.I{
+    font-style: italic;
+}
+
+.U{
+    text-decoration: underline;
+}
